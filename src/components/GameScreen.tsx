@@ -213,11 +213,11 @@ export const GameScreen: React.FC<GameScreenProps> = ({
             </div>
           </div>
           {/* Always show the anime title below the image for debugging/consistency */}
-          <div className="mt-4 text-center">
+          {/* <div className="mt-4 text-center">
             <span className="text-xl font-bold text-white bg-black/40 px-4 py-2 rounded-lg inline-block">
               {currentAnime.title}
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
 
